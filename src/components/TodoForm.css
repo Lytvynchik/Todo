@@ -1,0 +1,75 @@
+.Todo__form {
+    width: 90%;
+    margin: 20px auto 0;
+	/* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+	}
+	.Todo__form input{
+    width: 78%;
+    padding: 10px 5px;
+	}
+	.Todo__form button{
+    width: 19%;
+    border: 1px solid black;
+    border-radius: 5px;
+	}
+	.Todo__form button:hover {
+    background-color: rgb(216, 216, 216);
+    cursor: pointer;
+	}
+
+	.Todo__list{
+    /* border: 1px solid blue; */
+    max-width: 100%;
+    width: 90%;
+    margin: 10px auto 0;
+	}
+	
+	.Todo__list {
+		padding-bottom: 30px;
+	}
+	.Todo__item {
+		width: 100%;
+		padding: 5px 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		/* border: 1px solid white; */
+		background: purple;
+		border-bottom-right-radius: 5px;
+		border-top-right-radius: 5px;
+		margin-top: 5px;
+	}
+	.Todo__item:nth-child(4n + 1){
+		background: mediumseagreen;
+	}
+	.Todo__item:nth-child(4n + 2){
+		background: slateblue;
+	}
+	.Todo__item:nth-child(4n + 3){
+		background: peru	;
+	}
+
+	.Todo__item__text{
+		margin-left: 5px;
+	}
+
+	.btn-block{
+		width: 20%;
+		display: flex;
+		justify-content: space-between;
+		/* border: 1px solid red; */
+		}
+	.btn-block button {
+		margin: 0 5px;
+		max-width: 100%;
+		width: 45%;
+		cursor: pointer;
+		color: white;
+		background: transparent;
+		border: none;
+	}
+	.btn-block button:hover{
+		font-size: 16px;
+	}
